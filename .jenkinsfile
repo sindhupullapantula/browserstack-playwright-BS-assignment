@@ -4,8 +4,8 @@ stages {
     stage('test') {
         steps {
                 sh 'npm install'
-                sh 'npm run sample-bs-local-test'
                 sh 'npm run sample-bs-test'
+                sh 'npm run sample-bs-local-test'
             }
         }
     }
