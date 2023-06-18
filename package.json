@@ -1,0 +1,17 @@
+{
+  "name": "sindhu-browserstack-playwright",
+  "version": "1.0.0",
+  "description": "sindhu-browserstack-playwright-assignment",
+  "main": "index.js",
+  "scripts": {
+    "sample-bs-local-test": "BROWSERSTACK_LOCAL=true npx playwright test tests/sample_test.js",
+    "sample-bs-test": "npx playwright test tests/sample_test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.1",
+    "browserstack-local": "^1.5.1"
+  }
+}
