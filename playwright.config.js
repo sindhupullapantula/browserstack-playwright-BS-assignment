@@ -59,12 +59,12 @@ const config = {
       },
     }
     ,
-    {
-      name: 'chrome@latest:Windows 10',
-      use: {
-        connectOptions: { wsEndpoint: getCdpEndpoint('chrome@latest:Windows 10', 'test2') }
-      },
-    },
+    // {
+    //   name: 'chrome@latest:Windows 10',
+    //   use: {
+    //     connectOptions: { wsEndpoint: getCdpEndpoint('chrome@latest:Windows 10', 'test2') }
+    //   },
+    // },
     {
       name: 'playwright-firefox:Windows 11',
       use: {
