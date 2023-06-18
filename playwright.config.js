@@ -60,9 +60,9 @@ const config = {
     }
     ,
     {
-      name: 'playwright-webkit@latest:OSX Ventura',
+      name: 'chrome@latest:Windows 10',
       use: {
-        connectOptions: { wsEndpoint: getCdpEndpoint('playwright-webkit@latest:OSX Ventura', 'test2') }
+        connectOptions: { wsEndpoint: getCdpEndpoint('chrome@latest:Windows 10', 'test2') }
       },
     },
     {
